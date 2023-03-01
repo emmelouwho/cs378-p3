@@ -2,3 +2,17 @@
   text-align: center;
 }
 
+.search {
+  width: 200px;
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.search input {
+  width: 192px;
+}
