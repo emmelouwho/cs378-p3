@@ -6,9 +6,13 @@ import { CityList } from './display';
 import { Weather } from './weather';
 
 function App() {
-  const initalCities = {name: 'Austin, Texas, US', longitude: -97.74306, latitude: 30.26715, timezone: 'America/Chicago'};
-  const [citites, setCities] = useState([initalCities]);
-  const [activeCity, setActiveCity] = useState(initalCities);
+  const initalCities = [
+    {name: 'Austin, Texas, US', longitude: -97.74306, latitude: 30.26715, timezone: 'America/Chicago'},
+    {name: 'Dallas, Texas, US', longitude: -96.80667, latitude: 32.78306, timezone: 'America/Chicago'},
+    {name: 'Houston, Texas, US', longitude: -95.36327, latitude: 29.76328, timezone: 'America/Chicago'}
+];
+  const [citites, setCities] = useState(initalCities);
+  const [activeCity, setActiveCity] = useState(initalCities[0]);
   const [loading, setLoading] = useState(false);
 
   function equalObjects(obj1, obj2) {
