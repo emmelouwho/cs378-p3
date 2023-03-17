@@ -5,7 +5,7 @@ export const ResultTable = styled.table`
     line-height: 1.4;
     border: 1px grey solid;
     position: absolute;
-    top: 40px;
+    top: 110px;
     background-color: lightgrey;
     width: 200px;
 
