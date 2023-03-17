@@ -11,7 +11,7 @@ root.render(
     domain="dev-56extu72tt5jpv4n.us.auth0.com"
     clientId="AoBRVRtiMN9VLMOI1LLynDypyxRBGISN"
     authorizationParams={{
-      redirect_uri: "https://emmelouwho.github.io"
+      redirect_uri: window.location.origin
     }}
   >
     <App />
